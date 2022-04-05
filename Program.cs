@@ -19,7 +19,7 @@ namespace FactoryPattern
             //	• Make a static VehicleFactory class.        --done
             //		○ It will contain a static method GetVehicle(), that will return an IVehicle based on
             //		    the amount of tires it’s given as a parameter.      --done
-            //Call this functionality in the Main method.
+            //Call this functionality in the Main method.       --done
 
             Console.WriteLine("Welcome to the Vehicle Factory.");
 
