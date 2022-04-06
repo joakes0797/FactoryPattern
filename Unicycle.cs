@@ -6,9 +6,13 @@ namespace FactoryPattern
 {
     public class Unicycle : IVehicle
     {
+        public Unicycle()
+        {
+            Console.WriteLine("What balance you must have!");
+        }
         public void Drive()
         {
-            Console.WriteLine("One electric unicycle, coming right up!");
+            Console.WriteLine($"One electric {GetType().Name}, coming right up!");
         }
     }
 }
